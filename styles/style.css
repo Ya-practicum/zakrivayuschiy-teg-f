@@ -101,6 +101,34 @@
   display: block;
 }
 
+.filter-grayscale {
+  filter: grayscale(50%);
+}
+
+.filter-contrast {
+  filter: contrast(150%);
+}
+
+.filter-brightness {
+  filter: brightness(1.5);
+}
+
+.filter-invert {
+  filter: invert(10%);
+}
+
+.filter-sepia {
+  filter: sepia(50%);
+}
+
+.filter-blur {
+  filter: blur(2px);
+}
+
+.filter-hue-rotate {
+  filter: hue-rotate(30deg);
+}
+
 .card__label {
   position: absolute;
   top: 25px;
