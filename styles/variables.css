@@ -1,1 +1,33 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font: "Inter", sans-serif;
+  --accent-font: "PressStart2P", cursive;
+  --main-font-size: 18px;
+  --accent-font-size: 14px;
+  --main-text-weight: 400;
+  --card-title-weight: 700;
+  --bg-image:
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --bg-color: #FFFFFF;
+  --card-bg-color: #000000;
+  --content-width: clamp(375px, 100%, 700px);
+  --header-padding: clamp(10px, 3vw, 20px);
+  --title-font-size: clamp(49px, 5vw, 65px);
+  --description-font-size: clamp(14px, 2vw, 23px);
+  --main-border: 2px solid #000000;
+  --label-text-color: #000000;
+  --label-stroke-color: #ffffff;
+  --accent-color: #000000;
+  --transition-speed: 0.5s ease-in-out;
+  --button-text-color: #ffffff;
+  --contour-color: #000000;     /*Контур сердца*/
+  --core-fill-color: transparent; /*Серцевина сердца*/
+  --main-body-color: transparent; /*Тело сердца*/
+  --sparks-color: #ff0000;      /*Искры вокруг сердца*/
+  --sparks-opacity: 0;            /*Управление видимостью искр*/
+}
+
+

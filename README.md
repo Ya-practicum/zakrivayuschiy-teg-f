@@ -1,0 +1,1 @@
+https://ya-practicum.github.io/zakrivayuschiy-teg-f/index.html
