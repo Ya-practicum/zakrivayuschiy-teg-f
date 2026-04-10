@@ -126,7 +126,7 @@
 }
 
 .filter-hue-rotate {
-  filter: hue-rotate(30deg);
+  filter: hue-rotate(30deg) sepia(20%);
 }
 
 .card__label {
