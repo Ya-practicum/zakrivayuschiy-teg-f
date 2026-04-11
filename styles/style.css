@@ -193,7 +193,7 @@
 }
 
 .card__icon-button:focus-visible {
-  border-color: var(--accent-color);
+  outline: var(--main-border);
 }
 
 .like-icon {
@@ -310,6 +310,7 @@
   width: 100%;
   min-height: 38px;
   padding: 10px;
+  text-transform: uppercase;
 }
 
 .dialog-window::backdrop {
