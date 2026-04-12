@@ -23,11 +23,30 @@
   --accent-color: #000000;
   --transition-speed: 0.5s ease-in-out;
   --button-text-color: #ffffff;
-  --contour-color: #000000;     /*Контур сердца*/
-  --core-fill-color: transparent; /*Серцевина сердца*/
-  --main-body-color: transparent; /*Тело сердца*/
-  --sparks-color: #ff0000;      /*Искры вокруг сердца*/
-  --sparks-opacity: 0;            /*Управление видимостью искр*/
+
+  --contour-color: #000000;
+  --core-fill-color: transparent;
+  --main-body-color: transparent;
+  --sparks-color: #ff0000;
+  --sparks-opacity: 0;
+
   --heart-hover-color: #000000;
   --heart-liked-color: #ff0000;
+}
+
+.like-icon:hover {
+  --main-body-color: var(--heart-hover-color);
+}
+
+.like-icon.is-liked {
+  --core-fill-color: var(--heart-liked-color);
+  --main-body-color: var(--heart-liked-color);
+  --contour-color: var(--heart-liked-color);
+}
+
+.like-icon:active {
+  --core-fill-color: var(--heart-liked-color);
+  --main-body-color: var(--heart-liked-color);
+  --core-delay: 0s;
+  --body-delay: 0.05s;
 }

@@ -35,10 +35,6 @@
   }
 }
 
-.like-icon:hover {
-  --main-body-color: var(--heart-hover-color);
-}
-
 .core {
   fill: var(--main-body-color);
   transition: fill 0.3s linear;
@@ -61,9 +57,6 @@
 
 .like-icon.is-liked {
   animation: heart-scale 0.3s ease-in 0.1s 1, sparks-fly 0.3s ease-in-out 0.3s 1;
-  --core-fill-color: var(--heart-liked-color);
-  --main-body-color: var(--heart-liked-color);
-  --contour-color: var(--heart-liked-color);
 }
 
 .like-icon.is-liked .core {
@@ -86,13 +79,6 @@
 .like-icon .main-body {
   fill: transparent;
   transition: fill 0.3s linear var(--body-delay, 0s);
-}
-
-.like-icon:active {
-  --core-fill-color: var(--heart-liked-color);
-  --main-body-color: var(--heart-liked-color);
-  --core-delay: 0s;
-  --body-delay: 0.05s;
 }
 
 .like-icon:active .core,
